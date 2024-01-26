@@ -1,0 +1,28 @@
+   0 mkdir /home/user/
+   1 mkdir /home/user/start/
+   2 touch /home/user/start/1.txt
+   3 echo "Start" >> File1.txt
+   4 date >> File1.txt 
+   5 mkdir /opt/task/
+   6 touch /opt/task/start.txt
+   7 mkdir /tmp/testnew/ 
+   8 ls -l
+   9 cd /tmp
+  10 ls -l
+  11 cd /opt
+  12 cp /task /tmp/testnew
+  13 cp /task/tmp/testnew
+  14 cd
+  15 cp /opt/task /tmp/testnew
+  16 cd /opt
+  17 ls -l
+  18 cat /opt/task/start.txt >> /home/readme.txt
+  19 rm /opt/task
+  20 cd /opt
+  21 ls -l
+  22 rm /task
+  23 ls -al
+  24 history
+  25 history >> hisrory_25.01
+  26 export_file hisrory_25.01 
+  27 history >> hisrory_25.01.txt
